@@ -1,0 +1,30 @@
+# Цель поиска
+find_ip=192.168.5.44
+
+# Адресат
+email_to=doddger@mail.ru
+
+# Адрес отправителя
+email_from=my.main.test01@gmail.com
+
+# Логин для отправки письма
+login=my.main.test01
+
+# Адрес smtp-сервера почтового домена
+# Пример: gmail.com: smtps://smtp.gmail.com:465
+email_domain=smtps://smtp.gmail.com:465
+
+#Использовать SSL true\false
+useSSL=true
+
+# Пароль для отправки
+password=riseofdeath
+
+#  Искать\игнорировать цели поиска
+ip_container=white
+
+# Период отправки отчёта
+report_period=10
+
+# Интерфейс. Можно задавать имя либо адрес ipv4
+interface=eth0
